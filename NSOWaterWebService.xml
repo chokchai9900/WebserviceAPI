@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NSOWaterWebService</name>
+    </assembly>
+    <members>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsAgriculture">
+            <summary>
+            1) ครัวเรือนเกษตรกรรม
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsHouseHold">
+            <summary>
+            2) ครัวเรือนทั้งหมด
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsHouseHoldGoodPlumbing">
+            <summary>
+            3) ครัวเรือนที่มีน้ำประปาคุณภาพดี
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsAgricultureHasIrrigationField">
+            <summary>
+            4) ครัวเรือนที่มีพื้นที่เกษตรกรรมในพื้นที่ชลประทาน
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsHouseHoldHasPlumbingDistrict">
+            <summary>
+            5) ครัวเรือนในเขตเมืองที่มีน้ำประปาใช้ (ในเขตเทศบาล)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsHouseHoldHasPlumbingCountryside">
+            <summary>
+            6) ครัวเรือนในชนบทที่มีน้ำประปาใช้ (นอกเขตเทศบาล)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsFactorialWaterQuality">
+            <summary>
+            7) คุณภาพน้ำที่ใช้ในการผลิต (น้ำประปา ผิวดิน น้ำบาดาล)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsCommercialWaterQuality">
+            <summary>
+            8) คุณภาพน้ำที่ใช้ในภาคบริการ (น้ำประปา ผิวดิน น้ำบาดาล)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CountGroundWater">
+            <summary>
+            9) จำนวนบ่อน้ำบาดาล
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CountPopulation">
+            <summary>
+            10) จำนวนประชากรทั้งหมด
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CountWorkingPopulation">
+            <summary>
+            11) จำนวนประชากรวัยทำงาน
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsFactorial">
+            <summary>
+            12) โรงงานอุตสาหกรรมทั้งหมด
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsFactorialWaterTreatment">
+            <summary>
+            13) โรงงานอุตสาหกรรมที่มีระบบบำบัดน้ำเสีย
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsCommunityWaterManagementHasWaterTreatment">
+            <summary>
+            14) หมู่บ้านที่มีระบบบำบัดน้ำเสีย
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.FieldCommunity">
+            <summary>
+            15) พื้นที่ชลประทาน
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.DisasterousInHouseHold">
+            <summary>
+            16) ระดับความลึกของน้ำท่วม (ในเขตที่อยู่อาศัย)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.TimeDisasterousInHouseHold">
+            <summary>
+            17) ระยะเวลาที่น้ำท่วมขัง (ในเขตที่อยู่อาศัย) 
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.HasntPlumbing">
+            <summary>
+            18) ระยะเวลาที่มีน้ำประปาใช้ (เดือน)  
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsGovernment">
+            <summary>
+            19) สถานที่ราชการทั้งหมด
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsGovernmentUsage">
+            <summary>
+            20) สถานที่ราชการที่มีน้ำประปาใช้
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IsGovernmentWaterQuality">
+            <summary>
+            21) สถานที่ราชการที่มีน้ำประปาที่มีคุณภาพมาตรฐาน
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CommunityNatureDisaster">
+            <summary>
+            22) หมู่บ้านในพื้นที่น้ำท่วมซ้ำซากที่มีการเตือนภัยและมาตรการช่วยเหลือ
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.WaterSources">
+            <summary>
+            23) แหล่งน้ำขนาดใหญ่ กลาง และเล็ก
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.IndustryHasWasteWaterTreatment">
+            <summary>
+            24) โรงงานอุตสาหกรรมที่มีน้ำเสียจากระบบ
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.PeopleInFloodedArea">
+            <summary>
+            25) ประชากรที่อาศัยในครัวเรือนที่มีน้ำท่วม
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterGroundWaterForAgriculture">
+            <summary>
+            26) ปริมาณการใช้น้ำบาดาลเพื่อการเกษตร(น้ำบาดาล น้ำซื้อ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterGroundWaterForService">
+            <summary>
+            27) ปริมาณการใช้น้ำบาดาลเพื่อการบริการ(น้ำบาดาล น้ำซื้อ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterGroundWaterForProduct">
+            <summary>
+            28) ปริมาณการใช้น้ำบาดาลเพื่อการอุตสาหกรรม(น้ำบาดาล น้ำซื้อ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterGroundWaterForDrink">
+            <summary>
+            29) ปริมาณการใช้น้ำบาดาลเพื่อการอุปโภคบริโภค(น้ำบาดาล น้ำซื้อ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterPlumbingForAgriculture">
+            <summary>
+            30) ปริมาณการใช้น้ำประปาเพื่อการเกษตร
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterPlumbingForService">
+            <summary>
+            31) ปริมาณการใช้น้ำประปาเพื่อการบริการ
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterPlumbingForProduct">
+            <summary>
+            32) ปริมาณการใช้น้ำประปาเพื่อการอุตสาหกรรม
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterPlumbingForDrink">
+            <summary>
+            33) ปริมาณการใช้น้ำประปาเพื่อการอุปโภคบริโภค
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterSurfaceForAgriculture">
+            <summary>
+            34) ปริมาณการใช้น้ำผิวดินเพื่อการเกษตร (สระน้ำ แม่น้ำ ชลประทาน น้ำฝนกักเก็บ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterSurfaceForService">
+            <summary>
+            35) ปริมาณการใช้น้ำผิวดินเพื่อการบริการ (สระน้ำ แม่น้ำ ชลประทาน น้ำฝนกักเก็บ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterSurfaceForProduct">
+            <summary>
+            36) ปริมาณการใช้น้ำผิวดินเพื่อการอุตสาหกรรม (สระน้ำ แม่น้ำ ชลประทาน น้ำฝนกักเก็บ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterSurfaceForDrink">
+            <summary>
+            37) ปริมาณการใช้น้ำผิวดินเพื่อการอุปโภคบริโภค (สระน้ำ แม่น้ำ ชลประทาน น้ำฝนกักเก็บ)
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CubicMeterGroundWaterForUse">
+            <summary>
+            38) ปริมาณน้ำบาดาลที่พัฒนามาใช้
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CountCommunity">
+            <summary>
+            39) จำนวนหมู่บ้าน/ชุมชนทั้งหมด
+            </summary>
+        </member>
+        <member name="M:NSOWaterWebService.Controllers.WebServiceController.CountCommunityHasDisaster">
+            <summary>
+            40) จำนวนหมู่บ้าน/ชุมชนที่มีอุทกภัย ดินโคลนถล่ม
+            </summary>
+        </member>
+    </members>
+</doc>
